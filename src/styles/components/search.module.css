@@ -1,0 +1,51 @@
+label {
+    margin-left: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    width: 95%;
+    height: 21px;
+    border-radius: 6px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.checkboxContainer {
+    margin: 16px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.checkboxHeader {
+    display: flex;
+    padding: 16px;
+    background-color: rgb(236, 236, 236);
+}
+
+.checkboxItem {
+    display: flex;
+    padding: 16px;
+}
+
+.scrollBox {
+    overflow-y: scroll;
+    max-height: 50vh;
+}
+
+.button {
+    height: 46px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 0px;
+    background-color: cadetblue;
+    color: white;
+}
+
+.button:hover {
+    cursor: pointer;
+}
